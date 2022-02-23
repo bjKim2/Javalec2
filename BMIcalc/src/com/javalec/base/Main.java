@@ -31,6 +31,7 @@ public class Main {
 			error = true;
 		} else if (wei <= 0) {
 			System.out.println("몸무게를 잘못 입력하셨습니다.");
+			error = true;
 		}
 
 		if (error) {
@@ -52,7 +53,7 @@ public class Main {
 			} else if (bmi >= 23) {
 				System.out.println("당신은 과체중 입니다.");
 			} else if (bmi >= 18.5) {
-				System.out.println("당신은 고도 비만 입니다.");
+				System.out.println("당신은 정상 체중 입니다.");
 			} else if (bmi >= 1) {
 				System.out.println("당신은 저체중입니다.");
 			} else {
