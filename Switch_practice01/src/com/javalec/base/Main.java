@@ -19,12 +19,10 @@ public class Main {
 		}else if(score >=0){
 			switch (score/10) {
 			case 10:
+			case 8:
 				result = 'A';
 				break;
 			case 9:
-				result = 'A';
-				break;
-			case 8:
 				result = 'B';
 				break;
 			case 7:
