@@ -6,7 +6,8 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		int[] intNum1 = {5,3,9};
-		
+		String test= null;
+		System.out.println(test+"11");
 		for(int j = 0 ; j <=2 ; j++) {
 			
 			for(int i = 1 ; i<=9; i++) {
