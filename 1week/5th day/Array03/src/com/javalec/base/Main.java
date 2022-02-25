@@ -31,12 +31,10 @@ public class Main {
 		
 		avg = sum/name.length * 1.0;
 		
-		
-		
 		System.out.println("평균 신장은 : " + avg );
 		System.out.println("가장 큰 학생은 : " + name[maxindex] + "이고 그 학생의 키는 " + hei[maxindex] + "입니다.");
 		System.out.println("가장 작은 학생은 : " + name[minindex] + "이고 그 학생의 키는 " + hei[minindex] + "입니다.");
 		
-	}
+	} // main
 
-}
+} // Main

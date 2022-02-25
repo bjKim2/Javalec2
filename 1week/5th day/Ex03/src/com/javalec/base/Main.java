@@ -14,6 +14,7 @@ public class Main {
 		System.out.print("몇 개의 숫자를 더할까요? : ");
 		intNum1 = scanner.nextInt();
 		int sum = 0;
+		
 		for(int i = 0 ; i<intNum1 ; i++){
 			sum += scanner.nextInt();
 			
