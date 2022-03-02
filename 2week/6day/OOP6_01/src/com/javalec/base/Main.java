@@ -16,6 +16,7 @@ public class Main {
 		
 		System.out.println(i + " ~ " + j + " 의 합은  " + sum2 + "입니" );
 		System.out.println(result2 + " 입니다.");
+	
 	}
-
+	
 }
