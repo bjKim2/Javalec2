@@ -1,5 +1,7 @@
 package com.javalec.base;
 
+import com.javalec.function.Multiply;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -15,7 +17,8 @@ public class Main {
 		
 		stringBuilder.delete(3, 6);
 		System.out.println(stringBuilder);
-		
+		Multiply multiply = new Multiply();
+		multiply.multiply();
 	}
 
 }
